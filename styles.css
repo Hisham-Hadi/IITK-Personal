@@ -1,0 +1,146 @@
+body {
+    background-color: #f6f6f6;
+    text-align: center;
+}
+ 
+h3 {
+    text-align: center;
+    color: #28abb9;
+    font-weight: 800;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.title-div {
+    height: 500px;
+    background-color: #EBDED5;
+    background-image: url(me.jpeg);
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+
+}
+
+.name {
+    font-family: 'Yellowtail', cursive;
+    font-size: 4rem;
+    text-align: right;
+    padding-top: 200px;
+    padding-right: 150px;
+}
+
+@media (max-width: 650px) {
+    .name {
+        text-align: left;
+        padding-left: 6%;
+        padding-top: 200px;
+        font-size: 3.5rem;
+    }
+}
+
+@media (min-width:651px) and (max-width:750px) {
+    .name {
+        padding-left: 10%;
+        padding-top: 270px;
+    }
+}
+
+@media (min-width:750px) and (max-width:900px) {
+    .name {
+        padding-right: 2%;
+    }
+}
+
+@media (min-width: 900px) and (max-width:1050px) {
+    .name {
+        padding-right: 10%;
+    }
+}
+
+.top-menu {
+    padding: 0;
+}
+
+.about-me {
+    width: 60%;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    font-size: 1.2rem;
+    line-height: 2;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.intro {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+@media (max-width: 1200px)  {
+    .about-me {
+        width: 90%;
+    }
+}
+
+.contact-div {
+    background-color: #EBDED5;
+    width: 100%;
+}
+
+.extra {
+    padding-bottom: 3rem;
+}
+
+.contact-card {
+    padding-left: 10%;
+}
+
+#socials {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.cards-heading {
+    font-family: 'Montserrat', sans-serif;
+    padding: 3rem 0 4rem;
+}
+
+.socials-text {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.button-link:link, .button-link:visited, .button-link:hover, .button-link:active {
+    background-color: #007BFF;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    border-radius: 7px;
+    font-size: 1.1rem;
+  }
+
+
+
+.footer-div {
+    background-color: #343A40;
+    padding: 4rem 0rem 2rem;
+}
+
+.footer-link {
+    padding: 0 3% 0;
+    color: #9A9D90;
+    font-size: 1.2rem;
+}
+
+.copy {
+    padding-top: 2rem;
+    color: #777777;
+    font-family: 'Courier New', Courier, monospace;
+}
